@@ -1,13 +1,13 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 31
 
     defaultConfig {
         minSdkVersion 18
-        targetSdkVersion 29
+        targetSdkVersion 31
         versionCode 25
-        versionName VERSION_NAME
+        versionName "1.11.2"
     }
 
     buildTypes {
@@ -25,4 +25,4 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
 }
 
-apply from: rootProject.file('gradle/gradle-bintray-push.gradle')
+//apply from: rootProject.file('gradle/gradle-bintray-push.gradle')
